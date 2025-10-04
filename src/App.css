@@ -1,0 +1,47 @@
+.mainContainer {
+  align-items: center;
+  background-color: lightgray;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  height: 60px;
+  margin: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.btnContainer {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+button {
+  font-size: 1.25rem;
+  height: 50px;
+  width: 60px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.operatorBtn {
+  color: aqua;
+}
